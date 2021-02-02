@@ -1,0 +1,247 @@
+/*------------------Général------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    /*border: 3px solid chocolate;*/
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------Header-------------------*/
+header {
+    border: 3px solid orange; 
+   
+}
+
+.Part1 {
+   /* border: 3px solid khaki;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.logo {
+   /* border: 3px solid red;*/
+    display: flex;
+}
+
+img {
+   /* border: 3px solid green;*/
+    width: 30%;
+}
+
+/*-------------Navigation------------------------*/
+
+nav{
+   /* border: 3px solid turquoise;*/
+    width: 40%;
+}
+
+nav ul {
+  /*  border: 3px solid blue;*/
+   list-style-type: none;
+   display: flex;
+   justify-content: space-around;
+}
+
+nav li{
+   /* border: 3px solid purple;*/
+    list-style: none;
+    display: inline;  
+}
+
+.inscrire {
+    font-weight: bold;
+}
+
+nav li a {
+   text-decoration: none;
+    color: #0065FC;
+}
+
+/*------------------Recherche----------------*/
+
+.Part2 {
+    /*border: 3px solid darkolivegreen;*/
+    margin-top: 2.5%;
+    margin-left:10px;
+}
+
+.Part2 h1 {
+    font-size: 125%;
+    margin-bottom: -7.5px;
+}
+
+.Part2 p {
+    font-size: 15px;
+}
+
+.barre_recherche {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button {
+    text-align: center;
+}
+
+.button1 {
+    height: 40px;
+    width: 45px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #F2F2F2;
+    border-style: none;
+    outline: none;
+}
+
+svg{
+   margin: auto;
+   height: 15px;
+}
+
+.recherche {
+    height: 40px;
+    border: 2px solid #f2f2f2;
+    outline: none;
+    color: rgba(128, 128, 128);
+}
+
+.button2 {
+    background-color: #0065FC;
+    font-weight: bold;
+    height: 40px;
+    width: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: #0065FC ;
+    border-style: none;
+    outline: none;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: white; 
+}
+
+/*------------------Filtres------------------*/
+
+.Part3 {
+   /* border: 3px solid maroon;*/
+    margin-top: 1.5%;
+}
+.Part3 h2 {
+    font-size: 15px;
+    margin-left: 0.5%;
+}
+
+.Filtres {
+    /*border: 3px solid salmon;*/
+    display: flex;
+    justify-content: space-around;
+   justify-content: flex-start;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.Fil {
+    /*border: 3px solid turquoise;*/
+    width:50px;
+    height:30px;
+    align-self:center;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.Eco {
+    /*border: 3px solid greenyellow;*/
+    
+}
+
+.Fam {
+    /*border: 3px solid firebrick;*/
+}
+
+.Rom {
+   /* border: 3px solid orchid;*/
+}
+
+.Ani {
+   /* border: 3px solid aqua;*/
+}
+
+.but_fil {
+    background-color: white;
+    border-color: #d9d9d9;
+    border-style: solid;
+    /*width: 120px;*/
+    height: 40px;
+    border-left-style:none ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 50px;
+    outline: none;
+    margin-left: 20px;
+    display: inline;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.but_fil_logo {
+    background-color:#DEEBFF;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50px;
+    border-style: none;
+    position: absolute;
+    color: #0065FC;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.ss_fi {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.buttoni {
+    background-color: white;
+    border-color: #d9d9d9;
+    border-style: solid;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    color: #0065FC;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.buttoni svg{
+    height: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+.ss_fi p {
+    margin-top: 15px;
+    font-size: 12.5px;
+}
+/*------------------Section------------------*/
+/*------------------Footer-------------------*/
