@@ -519,111 +519,106 @@ margin-top: 5%;
 /*----------------------------Section 2--------------------------------*/
 
 .bannière3 {
-    border: 3px solid chocolate;
+    /*border: 3px solid chocolate;*/
     width: 100%;
     height: 525px;
     margin-top: 50px;
-    
 }
 
 .activités {
-    border:3px solid lawngreen;
+    /*border:3px solid lawngreen;*/
     display: flex;
     justify-content: space-around;
-
 }
+
 .act1 {
-    border: 3px solid khaki;
+    /*border: 3px solid khaki;*/
     width: 25%;
     height: 450px;
     margin-right: 35px;
     border-radius: 20px;
-    
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
 
 .act2_3 {
-    border: 3px solid khaki;
+    /*border: 3px solid khaki;*/
     width: 25%;
     height: 450px;
     margin-right: 35px;
     border-radius: 20px;
-   
-
 }
 
 .a2 {
-    border: 3px solid gold;
+    /*border: 3px solid gold;*/
     width: 100%;
-    height: 45%;
+    height: 52%;
     border-radius: 20px;
-
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
 
 .a3 {
-    border: 3px solid gold;
+    /*border: 3px solid gold;*/
     width: 100%;
-    height: 45%;
+    height: 38%;
     margin-top: 10%;
     border-radius: 20px;
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
 
 .act4 {
-    border: 3px solid khaki;
+    /*border: 3px solid khaki;*/
     width: 25%;
     height: 450px;
     margin-right: 35px;
     border-radius: 20px;
-    
-
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
 
 .act5_6 {
-    border: 3px solid khaki;
+    /*border: 3px solid khaki;*/
     width: 25%;
     height: 450px;
     border-radius: 20px;
-    
-    
 }
 
 .a5 {
-    border: 3px solid gold;
+    /*border: 3px solid gold;*/
     width: 100%;
     height: 45%;
     border-radius: 20px;
-    
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
     
-
-
 .a6 {
-    border: 3px solid gold;
+    /*border: 3px solid gold;*/
     width: 100%;
     height: 45%;
     margin-top: 10%;
     border-radius: 20px;
+    box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
+    -1px -1px .6em rgba(128, 128, 128, 0.5);
 }
     
-
 .des3{
-    border: 3px solid orange;
+    /*border: 3px solid orange;*/
     width: 100%;
     height: 59px;
     position: absolute;
     bottom: 0;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
-    
-
 }
 
-    
-    
-    
-
-
 .H3_a {
-    border: 3px solid yellowgreen;
+    /*border: 3px solid yellowgreen;*/
+    padding-left: 8%;
+    font-size: 15px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .Reno {
@@ -631,57 +626,89 @@ margin-top: 5%;
     height: 100%;
     position: relative;
     border-radius: 20px;
-    
+    background-size: 220%;
+    background-position: top;
 }
-
 
 .Paul {
     background: url("images/activité/02.Paul-L.jpg")no-repeat;
     height: 100%;
     position: relative;
     border-radius: 20px;
-    
+    background-size: 100%;
+    background-position: center -145px ;
 }
-
-
 
 .Kevin {
     background: url("images/activité/03.Kevin-L.jpg")no-repeat;
     height: 100%;
     position: relative;
     border-radius: 20px;
-    
+    background-size: 100%;
+    background-position: center -30px;
 }
-
-
 
 .Kil {
     background: url("images/activité/04.Kil-XL.jpg")no-repeat;
     height: 100%;
     position: relative;
     border-radius: 20px;
-    
+    background-size: 217.5%;
+    background-position: center -25px;
 }
-
-
 
 .Flo {
     background: url("images/activité/05.Flo-L.jpg")no-repeat;
     height: 100%;
     position: relative;
     border-radius: 20px;
+    background-size: 100%;
+    background-position: center -12.5px;
 }
-
-
 
 .Lena {
     background: url("images/activité/06.Lena-L.jpg")no-repeat;
     height: 100%;
     position: relative;
     border-radius: 20px;
+    background-size: 100%;
+    background-position: center -37.5px;
 }
 
-
-
-
 /*------------------Footer-------------------*/
+
+.footer {
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 220px;
+    margin-top: 30px;
+    
+}
+
+.part_f {
+    width: 77.5%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    
+    
+}
+
+.part_f1 {
+   /* border: 3px solid hotpink;*/
+    margin-top:40px;
+    
+   
+
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+.footer li {
+margin-top: 10px;
+}
+
