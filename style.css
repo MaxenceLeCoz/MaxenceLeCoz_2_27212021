@@ -37,12 +37,12 @@ header {
 }
 
 .logo {
-   /* border: 3px solid red;*/
+    border: 3px solid red;
     display: flex;
 }
 
 img {
-   /* border: 3px solid green;*/
+   border: 3px solid green;
     width: 30%;
 }
 
@@ -92,8 +92,7 @@ nav li a:hover {
 
 .Part2 h1 {
     font-size: 125%;
-    margin-bottom: -7.5px;
-    
+    margin-bottom: -7.5px;  
 }
 
 .Part2 p {
@@ -143,6 +142,10 @@ svg{
     outline: none;
 }
 
+.button2 svg {
+    display: contents;
+}
+
 .button2 a {
     text-decoration: none;
     color: white; 
@@ -154,6 +157,7 @@ svg{
    /* border: 3px solid maroon;*/
     margin-top: 1.5%;
 }
+
 .Part3 h2 {
     font-size: 15px;
     margin-left: 0.5%;
@@ -215,6 +219,16 @@ svg{
     font-weight: bold;
 }
 
+.but_fil a {
+    color: black;
+    text-decoration: none;
+}
+
+.but_fil:hover {
+    background-color: #0065FC;
+    color: white;
+}
+
 .but_fil_logo {
     background-color:#DEEBFF;
     width: 40px;
@@ -263,14 +277,14 @@ svg{
 }
 /*----------------------------Section--------------------------------*/
 .contenu {
-    /*border: 3px solid teal;*/
+    border: 3px solid teal;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .contenu1 {
-   /* border: 3px solid  chartreuse;*/
+     border: 3px solid  chartreuse;
     width: 100%;
     height: 70%;
    display: flex;
@@ -283,7 +297,7 @@ svg{
 /*-----------Gauche------------*/
 
 .gauche {
-   /* border: 3px solid orange;*/
+     border: 3px solid orange;
     width: 62%;
     height: 630px;
     border-radius: 30px;
@@ -291,15 +305,15 @@ svg{
 }
 
 .gauche h2 {
-   /* border: 3px solid peru;*/
+    border: 3px solid peru;
 margin-left: 4%;
 margin-top: 5%;
 }
 
 .div_ga {
-    
-    width: 235px;
-    height: 175px;
+    border:3px solid tomato;
+    width: 26%;
+    height: 40%;
     background-size:235px;
     object-fit: cover;
     border-radius: 15px;
@@ -307,13 +321,13 @@ margin-top: 5%;
 }
 
 .des {
-   /* border: 3px solid lawngreen;*/
+    /* border: 3px solid lawngreen; */
     position: absolute;
     bottom: 0;
     border-radius: 0px 0px 15px 15px;
     width: 98%;
     height: 50px;
-    padding-left: 4%;
+    padding-left: 4%; 
     padding-top: 5%;
     margin-bottom: -2%;
     margin-left: 0%;
@@ -358,7 +372,7 @@ margin-top: 5%;
 
 .Mouettes {
     border: 5px solid white;
-    background: url("images/bannière_gauche/03.Mouettes.jpg"); 
+    background: url("images/bannière_gauche/03.Mouettes.jpg") no-repeat; 
     background-size: 235px;
     background-position: 0px -15px;
     position: relative;
@@ -398,7 +412,7 @@ margin-top: 5%;
 /*-----------Droite------------*/
 
 .droite {
-   /* border: 3px solid orangered;*/
+   border: 3px solid orangered;
     width: 33%;
     height: 630px;
     border-radius: 30px;
@@ -437,7 +451,7 @@ margin-top: 5%;
 }
 
 .contenu2_1 {
-   /* border: 3px solid darkmagenta;*/
+    /*border: 3px solid darkmagenta;*/
     width: 100%;
     height: 150px;
     margin-bottom: 25px;
@@ -515,14 +529,14 @@ margin-top: 5%;
 /*----------------------------Section 2--------------------------------*/
 
 .bannière3 {
-    /*border: 3px solid chocolate;*/
+    /* border: 3px solid chocolate; */
     width: 100%;
     height: 525px;
     margin-top: 50px;
 }
 
 .activités {
-    /*border:3px solid lawngreen;*/
+    /* border:3px solid lawngreen; */
     display: flex;
     justify-content: space-around;
 }
@@ -558,7 +572,7 @@ margin-top: 5%;
     /*border: 3px solid gold;*/
     width: 100%;
     height: 38%;
-    margin-top: 10%;
+    margin-top: 14%;
     border-radius: 20px;
     box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
     -1px -1px .6em rgba(128, 128, 128, 0.5);
@@ -594,7 +608,7 @@ margin-top: 5%;
     /*border: 3px solid gold;*/
     width: 100%;
     height: 45%;
-    margin-top: 10%;
+    margin-top: 14%;
     border-radius: 20px;
     box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
     -1px -1px .6em rgba(128, 128, 128, 0.5);
@@ -642,6 +656,7 @@ margin-top: 5%;
     border-radius: 20px;
     background-size: 100%;
     background-position: center -30px;
+    
 }
 
 .Kil {

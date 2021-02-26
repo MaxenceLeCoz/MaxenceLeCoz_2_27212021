@@ -1,4 +1,521 @@
-@media screen and (max-width: 1280px)
+@media screen and (max-width:1024px) /*1024x768*/
 {
+    /*------------------------Header------------*/
+
+    nav {
+        margin-right: -5%;
+    }
+
+    /*-------------------------Recherche---------- */
+
+    .Part2 h1 {
+        font-size: 160%;
+    }
+
+    .Part2 p {
+        font-size: 125%;
+    }
+
+    /*------------------------Filtres------------*/
+
+    .Filtres {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .ss_fi p {
+        font-size: 115%;
+    }
+
+    /*------------------------Section-----------*/
+    .contenu {
+       flex-direction: column-reverse;
+        }
+
+    .gauche {
+          width: 100%;
+          padding-top: 1.5px;
+        }
+
     
+    .droite {
+        margin-bottom: 20px;
+        height: 300px;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        }
+
+    .droite h2 {
+        margin-top: 4%;
+        margin-left: 4%;
+        }
+
+    .H2_1 svg {
+         margin-top: 4%;
+         margin-right: 4%;
+        }
+
+    .contenu2 {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+       height: 160px;
+        }
+
+    .contenu2_1 {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 2%;
+        }
+
+/*--------------------------Activités-----------*/
+
+    .act1 {
+    height: 350px;
+    }
+
+    .a2 {
+    height: 150px;
+    }
+
+    .a3 {
+    height: 170px;
+    }
+
+    .act4 {
+    height: 350px;
+    }
+
+    .act4 .des3 {
+    display: flex;
+    align-items:center;
+    }
+
+    .a5 {
+    height: 160px;
+    }
+
+    .a5 .des3 {
+    display: flex;
+    align-items:center;
+    }
+
+    .a6 {
+    height: 160px;
+    }
+
+    .Reno {
+    background-size: 220%;
+    background-position: top;
+    }
+
+    .Paul {
+    background-size: 100%;
+    background-position: center -110px ;
+    }
+
+    .Kevin {
+    background-size: -300%;
+    background-position: center 0px;
+    }
+
+    .Kil {
+    background-size: 217.5%;
+    background-position: center 0px;
+    }
+
+    .Flo {
+    background-size: 100%;
+    background-position: center 0px;
+    }
+
+    .Lena {
+    background-size: 100%;
+    background-position: center -12.5px;
+    }
+
+    /*------------------Footer-------------------*/
+
+.footer {
+    margin-top: -80px;
+}
+
+
+
+
+
+
+@media all and (max-device-width: 500px) {
+
+    
+/*----------------------------Header---------------------------------*/
+
+img {
+    width: 70%;
+}
+
+/*----------------------------Navigation-----------------------------*/
+.Part1 {
+    /* display: block;*/
+} 
+
+nav {
+    width: 50%;
+    font-size: 150%;
+}
+
+.Part2 h1,p {
+    
+}
+/*----------------------------Recherche------------------------------*/
+
+.Part2 {
+    /*border: 3px solid darkolivegreen;*/
+    margin-top: 2.5%;
+    margin-left:10px;
+}
+
+.Part2 h1 {
+    font-size: 375.5%;
+}
+
+.Part2 p {
+    font-size: 175.5%;
+}
+
+.barre_recherche {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button {
+    text-align: center;
+}
+
+.button1 {
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-color: #F2F2F2;
+    border-style: none;
+    outline: none;
+}
+
+.button1 svg {
+    height: 40px;
+}
+
+svg {
+    margin: auto;
+    height: 15px;
+ }
+
+.recherche {
+    width: 80%;
+    height: 100px;
+    border: 2px solid #f2f2f2;
+    outline: none;
+    color: rgba(128, 128, 128);
+}
+
+.button2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.button2 svg {
+    display:inline;
+    color : white;
+
+}
+
+.button2 a {
+    display: none;
+    text-decoration: none;
+    color: white; 
+}
+/*----------------------------Filtres--------------------------------*/
+
+.Fil {
+    
+}
+
+/*----------------------------Section--------------------------------*/
+
+.contenu {
+    /* width: 95%;
+    height: 43%; */
+}
+
+.contenu1 {
+    /* width: 100%;
+    /* height: 1400px; */
+   /* display: inline-block;
+    flex-direction: column; */
+}
+
+/*-----------Gauche------------*/
+
+.gauche {
+    /* width: 100%;
+    height: 71%;
+    background-color: white; */
+
+}
+
+.gauche h2 {
+    /* margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: 350%;*/
+} 
+
+
+.div_ga {
+   */ width: 336px;
+    height: 200px;
+    margin-left: 15px; */
+    /* margin-right: 15px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    border-radius: 50px;
+
+   
+    object-fit: cover; */
+}
+
+.des {
+     /* position: absolute;
+     
+     border-radius: 0px 0px 40px 40px;
+     width: 96.5%;
+     height: 35%;
+      padding-left: 4%; 
+      padding-top: 5%; 
+      margin-bottom: -2%; 
+     margin-left: 0%;
+     bottom: 0; */
+ }
+ 
+ .des h3 {
+     /* align-content: flex-start;
+     font-size:250%;
+     margin-bottom: 0%;
+     margin-top: -3%;
+     padding-top: 0%;
+     font-weight: bold; */
+ }
+ 
+ .des p {
+     /* margin-top: 0%;
+    float: left;
+     font-size: 250%; */
+     
+ }
+ 
+ .star {
+     /* display: inline-block;
+     margin-top: -8%; */
+ }
+ 
+ .Cannebière {
+     
+     border: 10px solid white;
+     background: url("images/bannière_gauche/01.Cannebière.jpg") no-repeat;
+     background-size: 100%;
+     background-position: 0px -145px;
+     position: relative;
+ }
+ 
+ .Port {
+     border: 10px solid white;
+     background: url("images/bannière_gauche/02.Port.jpg") no-repeat;
+     background-size: 100%;
+     background-position: 0px -20px;
+     position: relative;
+ }
+ 
+ .Mouettes {
+     border: 10px solid white;
+     background: url("images/bannière_gauche/03.Mouettes.jpg") no-repeat; 
+     background-size: 100%;
+     background-position: 0px -15px;
+     position: relative;
+ }
+ 
+ .Mer {
+     border: 10px solid white;
+     background: url("images/bannière_gauche/04.Mer.jpg") no-repeat;
+     background-size: 100%;
+     background-position: 0px -50px;
+     position: relative;
+ }
+ 
+ .Panier {
+     border: 10px solid white;
+     background: url("images/bannière_gauche/05.Panier.jpg") no-repeat;
+     background-size: 100%;
+     background-position: 0px -12px;
+     position: relative;
+ }
+ 
+ .Amina {
+     border: 10px solid white;
+     background: url("images/bannière_gauche/06.Amina.jpg") no-repeat;
+     background-size: 100%;
+     background-position: 0px -115px;
+     position: relative;
+ }
+
+#suite {
+    /* display: none; */
+}
+
+/*-----------Droite------------*/
+
+.droite {
+    /* height: 580px;
+    width: 29%;
+   
+    border-radius: 0; */
+}
+
+.H1_2 {
+    /* text-align: center; */
+}
+
+.contenu2 {
+
+    /* display: flex;
+    
+    flex-direction: column;
+     */
+}
+/*----------------------------Section 2------------------------------*/
+
+.bannière3 {
+    height: 30%;
+    margin-bottom: 125px;
+    margin-top: 50px;
+}
+
+.bannière3 h2 {
+    font-size: 390%;
+}
+
+.bannière3 h3 {
+    font-size: 300%;
+}
+
+.activités {
+    width: 100%;
+    flex-direction: column;
+}
+
+.des3 {
+    height: 140px;
+    text-align:start;
+    align-items: center;
+}
+
+.act1 {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px; 
+}
+
+.a2 {
+    width: 400%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.a3 {
+    width: 400%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.act4 {
+    width: 100%;
+    height: 450px;
+    margin-top: 550px;
+    margin-bottom: 50px;
+}
+
+.a5 {
+    width: 400%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.a6 {
+    width: 400%;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.Reno {
+    background-size: 100%;
+    background-position: center;
+}
+
+.Paul {
+    background-size: 100%;
+    background-position: left ;
+}
+
+.Kevin {
+    background-size: 100%;
+    background-position: center ;
+    
+}
+
+.Kil {
+    background-size: 100%;
+    background-position: center -100px;
+}
+
+.Flo {
+    background-size: 100%;
+    background-position: center -100px;
+}
+
+.Lena {
+    background-size: 100%;
+    background-position: center -150px;
+}
+
+
+/*----------------------------Footer---------------------------------*/
+
+.footer {
+    height: 10%;
+    margin-top: 600px;
+    padding-top: -15px;
+}
+
+.part_f {
+    width: 77.5%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 100px;
+    margin-top: 60px;
+    margin-left: 3%;
+}
+
+.part_f1 {
+   /* border: 3px solid hotpink;*/
+    margin-top:40px;
+    font-size: 280%;
+}
+
+.footer li {
+    margin-top: 25px;
+    font-size: 85%;
 }
