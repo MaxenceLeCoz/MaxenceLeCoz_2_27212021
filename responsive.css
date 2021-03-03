@@ -6,6 +6,7 @@
         margin-right: -5%;
     }
 
+  
     /*-------------------------Recherche---------- */
 
     .Part2 h1 {
@@ -150,31 +151,76 @@
 
 @media all and (max-device-width: 500px) {
 
+
     
 /*----------------------------Header---------------------------------*/
-
 img {
-    width: 70%;
+    width: 90%;
+    /* border: 3px solid cornflowerblue; */
+} 
+
+.logo {
+    width: 100%;
+    margin-left: 40px;
+    /* border: 3px solid rebeccapurple; */
 }
 
 /*----------------------------Navigation-----------------------------*/
 .Part1 {
-    /* display: block;*/
+    /* display: block; */
 } 
 
-nav {
-    width: 50%;
+.Part1 nav {
+    /* border: 3px solid seagreen; */
+    width: 150%;
     font-size: 150%;
+    height: 250px;
 }
 
-.Part2 h1,p {
-    
+.Part1 ul {
+    /* border: 3px solid lightseagreen; */
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.order:nth-child(1){
+    order: 2;
+    font-size: 50px;
+    margin-left: -600px;
+    border: 3px solid transparent;
+}
+
+.order:nth-child(2) {   
+    order: 3;
+   font-size: 50px;
+   margin-right: -350px; 
+    border: 3px solid transparent;
+}
+
+.order:nth-child(3){
+    order: 1;
+    width: 100%;
+    margin-bottom: 120px;
+    margin-top: 80px;
+    margin-left: 550px;
+    font-size: 45px;
+    border-bottom: none;
+}
+
+.Part1 nav li a:hover {
+    color: #0065FC;
+    border-top: none;
+    border-bottom: 8px solid #0065FC;
+    padding-bottom: 50px;
+}
+
 /*----------------------------Recherche------------------------------*/
 
 .Part2 {
     /*border: 3px solid darkolivegreen;*/
-    margin-top: 2.5%;
+    margin-top: 20%;
     margin-left:10px;
 }
 
@@ -187,8 +233,11 @@ nav {
 }
 
 .barre_recherche {
+
+    width: 100%;
     display: flex;
     justify-content: center;
+    
     
 }
 
@@ -196,11 +245,16 @@ nav {
     text-align: center;
 }
 
+.recherche  {
+    padding-left: 50px ;
+    font-size: 50px;
+}
+
 .button1 {
-    height: 100px;
-    width: 100px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    height: 120px;
+    width: 120px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     border-color: #F2F2F2;
     border-style: none;
     outline: none;
@@ -210,29 +264,29 @@ nav {
     height: 40px;
 }
 
-svg {
-    margin: auto;
-    height: 15px;
- }
-
 .recherche {
-    width: 80%;
-    height: 100px;
-    border: 2px solid #f2f2f2;
+    width: 75%;
+    height: 120px;
+    border: 5px solid #f2f2f2;
     outline: none;
     color: rgba(128, 128, 128);
 }
 
 .button2 {
-    width: 100px;
-    height: 100px;
-    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 40px;
+    margin-left: -40px;
 }
 
 .button2 svg {
-    display:inline;
+    height: 40px;
     color : white;
+}
 
+
+.button2 svg ::before{
+    content: "/f002";   
 }
 
 .button2 a {
@@ -240,162 +294,405 @@ svg {
     text-decoration: none;
     color: white; 
 }
+
 /*----------------------------Filtres--------------------------------*/
 
-.Fil {
-    
+.Part3 {
+    /* border: 3px solid maroon; */
+     margin-top: 5%;
+     margin-bottom: -2%;
+     height: 820px;
+ }
+ 
+ .Part3 h2 {
+     font-size: 15px;
+     margin-left: 0.5%;
+ }
+ 
+ .Filtres {
+     /* border: 3px solid salmon; */
+     display: flex;
+     flex-wrap:wrap;
+     width: 98%; 
+     height: 80%;
+ }
+ 
+.fil_but {
+    border: 3px solid hotpink;  
 }
+
+ .Fil {
+     /* border: 3px solid turquoise; */
+     font-size: 350%;
+     height: 10%;
+     width: 100%;   
+ }
+ 
+ .Eco {
+     /* border: 3px solid greenyellow; */
+     height: 20%;
+     width: 50%; 
+ }
+ 
+ .Fam {
+     /* border: 3px solid firebrick; */
+     height: 20%;
+     width: 40%;  
+ }
+ 
+ .Rom {
+    /* border: 3px solid orchid; */
+    height: 20%;
+    width: 50%;
+ }
+ 
+ .Ani {
+    /* border: 3px solid aqua; */
+    height: 20%;
+    width: 66%;
+ }
+ 
+ .but_fil {
+     background-color: white;
+     border-color: #d9d9d9;
+     border-style: solid;
+     width: 100%;
+     height: 100%;
+     border-left-style:none ;
+     border-radius: 90px;
+     margin-right: 50px;
+     outline: none;
+     margin-left: 20px;
+     display: inline;
+     padding-right: 15px;
+     padding-left: 30px;
+     font-weight: bold;
+     align-content: center;
+ }
+ 
+ .but_fil a {
+     color: black;
+     text-decoration: none;
+     font-size: 300%;
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 8%;
+ }
+ 
+ .but_fil:hover {
+     background-color: #0065FC;
+     color: white;
+ }
+ 
+ .but_fil_logo {
+     background-color:#DEEBFF;
+     width: 132.5px;
+     height: 132.5px;
+     display: inline-block;
+     border-radius: 90px;
+     border-style: none;
+     position: absolute;
+     color: #0065FC;
+     display: flex;
+     justify-content: center;
+     outline: none;
+ }
+
+ .but_fil_logo svg {
+     height: 40%;
+ }
+ 
+ .ss_fi {
+     display: flex;
+     justify-content: flex-start;
+     margin-top: 15px;
+ }
+ 
+ .buttoni {
+     height: 75px;
+     width: 90px;
+     display: flex;
+     justify-content: center;
+     border-radius: 100px;
+ }
+ 
+ .buttoni svg{
+     height: 30px;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .ss_fi p {
+     margin-top: 1%;
+    margin-left: 2%;
+    font-size: 250%;
+ }
 
 /*----------------------------Section--------------------------------*/
 
 .contenu {
-    /* width: 95%;
-    height: 43%; */
+    /* width: 95%;*/
+    height: 200%; 
+   
 }
 
 .contenu1 {
-    /* width: 100%;
-    /* height: 1400px; */
-   /* display: inline-block;
-    flex-direction: column; */
+    /* width: 100%;*/
+     height: 3425px; 
+    display: inline-block;
+    margin-bottom: 1%;
+    /* flex-direction: column; */
 }
 
 /*-----------Gauche------------*/
 
 .gauche {
-    /* width: 100%;
-    height: 71%;
-    background-color: white; */
-
+     width: 100%;
+     height: 3625px;  
+     margin-bottom: 20%;
+     margin-top: -0.5%;
+     margin-left: 2%;
+    background-color: white; 
 }
 
 .gauche h2 {
-    /* margin-top: 2%;
+     margin-top: 10%;
+     margin-left: 2%;
     margin-bottom: 3%;
-    font-size: 350%;*/
+    font-size: 340%;
 } 
 
-
 .div_ga {
-   */ width: 336px;
-    height: 200px;
-    margin-left: 15px; */
-    /* margin-right: 15px;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    width: 97.5%;
+    height: 520px;
+    margin-bottom: 3%;
+    margin-top: 3%;
     border-radius: 50px;
-
-   
-    object-fit: cover; */
+    object-fit: cover; 
 }
 
 .des {
-     /* position: absolute;
-     
-     border-radius: 0px 0px 40px 40px;
-     width: 96.5%;
-     height: 35%;
-      padding-left: 4%; 
-      padding-top: 5%; 
-      margin-bottom: -2%; 
-     margin-left: 0%;
-     bottom: 0; */
+    border-radius: 0px 0px 40px 40px; 
+    width: 97.5%;
+    height: 32.5%; 
+    margin-bottom: -0.5%; 
+    margin-left: -0.5%;
  }
  
  .des h3 {
-     /* align-content: flex-start;
-     font-size:250%;
+     align-content: flex-start;
+     font-size:295%;
      margin-bottom: 0%;
      margin-top: -3%;
      padding-top: 0%;
-     font-weight: bold; */
+     font-weight: bold; 
  }
  
  .des p {
-     /* margin-top: 0%;
-    float: left;
-     font-size: 250%; */
-     
+      margin-top: 2%;
+      margin-bottom: 4%;
+     font-size: 250%; 
  }
  
  .star {
-     /* display: inline-block;
-     margin-top: -8%; */
+     display: inline-block;
+    height: 40%;
  }
+
+ .star_blue {
+    height: 30px;
+    color: #0065FC;
+}
+
+.star_hidden {
+    height: 30px;
+    color: #d9d9d9;
+}
  
- .Cannebière {
+.Cannebière {
      
      border: 10px solid white;
      background: url("images/bannière_gauche/01.Cannebière.jpg") no-repeat;
      background-size: 100%;
      background-position: 0px -145px;
      position: relative;
- }
+}
  
- .Port {
+.Port {
      border: 10px solid white;
      background: url("images/bannière_gauche/02.Port.jpg") no-repeat;
-     background-size: 100%;
-     background-position: 0px -20px;
+     background-size: 101.5%;
+     background-position: 1px -150px;
      position: relative;
- }
+}
  
- .Mouettes {
+.Mouettes {
      border: 10px solid white;
      background: url("images/bannière_gauche/03.Mouettes.jpg") no-repeat; 
-     background-size: 100%;
-     background-position: 0px -15px;
+     background-size: 101%;
+     background-position: -12px -145px;
      position: relative;
- }
+}
  
- .Mer {
+.Mer {
      border: 10px solid white;
      background: url("images/bannière_gauche/04.Mer.jpg") no-repeat;
-     background-size: 100%;
-     background-position: 0px -50px;
+     background-size: 104%;
+     background-position: -20px -279px;
      position: relative;
- }
+}
  
- .Panier {
+.Panier {
      border: 10px solid white;
      background: url("images/bannière_gauche/05.Panier.jpg") no-repeat;
-     background-size: 100%;
-     background-position: 0px -12px;
+     background-size: 102%;
+     background-position: -5px -100px;
      position: relative;
- }
+}
  
- .Amina {
+.Amina {
      border: 10px solid white;
      background: url("images/bannière_gauche/06.Amina.jpg") no-repeat;
-     background-size: 100%;
-     background-position: 0px -115px;
+     background-size: 103%;
+     background-position: -13.5px -535px;
      position: relative;
- }
+}
 
 #suite {
-    /* display: none; */
+    font-size: 325%;
+    margin-left: 2%;
 }
 
 /*-----------Droite------------*/
 
 .droite {
-    /* height: 580px;
-    width: 29%;
-   
-    border-radius: 0; */
+    width: 108%;
+    height: 1445px;
+    margin-left: -4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 0px;
+    padding-bottom:12.5%;
 }
 
-.H1_2 {
-    /* text-align: center; */
-}
 
 .contenu2 {
-
-    /* display: flex;
-    
+    display: flex;
     flex-direction: column;
-     */
 }
+
+.droite h2 {
+    /* border: 3px solid peru; */
+     margin-left: 5%;
+     margin-top: 8%;
+ }
+ 
+ .H2_1 {
+    /* border: 3px solid silver; */
+      display: flex;
+     justify-content: space-between;  
+ }
+ 
+ .H2_1 h2 {
+      margin-left: 5%;
+      font-size: 360%;
+ }
+ 
+ .H2_1 svg {
+    /* border: 3px solid tomato; */
+      height: 60px;
+     margin-right: 6%;
+     margin-top: 8.5%; 
+ }
+ 
+ .contenu2 {
+     /* border: 3px solid firebrick; */
+      width: 100%;
+     height: 90%;
+     margin-top: -20px;
+     }
+ 
+ .contenu2_1 {
+     /* border: 3px solid darkmagenta; */
+     width: 90%;
+     margin-bottom: 2.5% ;
+    margin-top:2.5% ;
+    margin-left: 4.5%;
+     height: 50%;
+     border-radius: 50px;
+ }
+ 
+ .div_dro {
+     /* border: 3px solid mediumspringgreen; */
+     width: 50%;
+     height: 94%;
+     background-size:235px;
+     object-fit: cover;
+     border-radius: 50px 0px 0px 50px; 
+   
+     
+ }
+ 
+ .des2 {
+     /* border: 3px solid lawngreen; */
+      border-radius: 0px 50px 50px 0px;
+     width: 70%;
+     height:98%;
+     /* background-color:red; */
+     color: black; 
+     
+ }
+ 
+ .H3_p {
+     /* border: 3px solid cadetblue; */
+     height: 55%;
+     margin-left: 8%; 
+ }
+ 
+ .H3_p h3 {
+     font-size: 260%;
+     font-weight: bold; 
+ }
+ 
+ .H3_p p {
+    /* border: 3px solid fuchsia; */
+     font-size: 230%; 
+ }
+ 
+ .star2 {
+     /* border: 3px solid brown; */
+    width:92%;
+    margin-left: 0px;
+    padding-left: 8%;
+    border-bottom: 24px solid white;
+    border-bottom-right-radius: 50px;
+      
+ }
+ 
+ .Soleil {
+    border: 10px solid white;
+    background:url("images/bannière_droite/01.Soleil.jpg") no-repeat ;
+    background-size: 165%;
+    background-position: -120px -17.5px;
+    position: relative;
+ }
+ 
+ .Coeur {
+     border: 10px solid white;
+    background:url("images/bannière_droite/02.Coeur.jpg") no-repeat ;
+    background-size: 145%;
+    background-position: -90px -17.5px;
+    position: relative;
+ }
+ 
+ .Blanc {
+     border: 10px solid white;
+    background:url("images/bannière_droite/03.Blanc.jpg") no-repeat ;
+    background-size: 105%;
+    background-position: -5px -102.5px;
+     position: relative;
+ }
+ 
 /*----------------------------Section 2------------------------------*/
 
 .bannière3 {
@@ -406,6 +703,7 @@ svg {
 
 .bannière3 h2 {
     font-size: 390%;
+    margin-left: 2%;
 }
 
 .bannière3 h3 {
@@ -483,7 +781,7 @@ svg {
 
 .Flo {
     background-size: 100%;
-    background-position: center -100px;
+    background-position: center -60px;
 }
 
 .Lena {

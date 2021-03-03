@@ -37,14 +37,17 @@ header {
 }
 
 .logo {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
+   
 }
 
-img {
-   border: 3px solid green;
+img{
+    /* border: 3px solid green; */
     width: 30%;
 }
+
+
 
 /*------------------Navigation--------------------------*/
 
@@ -64,6 +67,7 @@ nav li{
     /*border: 3px solid purple;*/
     list-style: none;
     display: inline;  
+    width:50px;
 }
 
 .inscrire {
@@ -134,16 +138,18 @@ svg{
     background-color: #0065FC;
     font-weight: bold;
     height: 40px;
-    width: 100px;
+    width: 132px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-color: #0065FC ;
     border-style: none;
     outline: none;
+    font-size: initial;
+    
 }
 
 .button2 svg {
-    display: contents;
+    color: transparent;
 }
 
 .button2 a {
@@ -277,14 +283,14 @@ svg{
 }
 /*----------------------------Section--------------------------------*/
 .contenu {
-    border: 3px solid teal;
+    /* border: 3px solid teal; */
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .contenu1 {
-     border: 3px solid  chartreuse;
+     /* border: 3px solid  chartreuse; */
     width: 100%;
     height: 70%;
    display: flex;
@@ -297,7 +303,7 @@ svg{
 /*-----------Gauche------------*/
 
 .gauche {
-     border: 3px solid orange;
+     /* border: 3px solid orange; */
     width: 62%;
     height: 630px;
     border-radius: 30px;
@@ -305,13 +311,13 @@ svg{
 }
 
 .gauche h2 {
-    border: 3px solid peru;
+    /* border: 3px solid peru; */
 margin-left: 4%;
 margin-top: 5%;
 }
 
 .div_ga {
-    border:3px solid tomato;
+    /* border:3px solid tomato; */
     width: 26%;
     height: 40%;
     background-size:235px;
@@ -412,7 +418,7 @@ margin-top: 5%;
 /*-----------Droite------------*/
 
 .droite {
-   border: 3px solid orangered;
+   /* border: 3px solid orangered; */
     width: 33%;
     height: 630px;
     border-radius: 30px;
