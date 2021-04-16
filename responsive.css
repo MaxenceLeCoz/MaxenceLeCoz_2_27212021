@@ -168,7 +168,7 @@ img {
 } 
 
 .logo {
-     width: 25%; 
+     width: 100%; 
     
     border: 3px solid rebeccapurple; 
     
@@ -186,8 +186,9 @@ img {
 
 .Part1 nav {
     border: 3px solid seagreen;
-    width: 80%;
+    width: 100%;
     display: flex;
+    
     
 
     
@@ -198,6 +199,7 @@ img {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
 .Part1 li {
@@ -207,25 +209,22 @@ img {
 .order:nth-child(1){
     order: 2;
     font-size: 25px;
-    width: 45%;
+    width: 50%;
     border: 3px solid transparent;
 }
 
 .order:nth-child(2) {   
     order: 3;
    font-size: 25px;
-  width: 45%;
+  width: 50%;
     border: 3px solid transparent;
 }
 
 .order:nth-child(3){
     order: 1;
-    /* width: 100%;
-    margin-bottom: 120px;
-    margin-top: 80px;
-    margin-left: 550px; */
     font-size: 25px;
     border-bottom: none;
+    width: 50%;
 }
 
 .Part1 nav li a:hover {
@@ -245,7 +244,7 @@ img {
 }
 
 .Part2 h1 {
-    font-size: 160%;
+    font-size: 6vw;
 }
 
 .Part2 p {
@@ -322,8 +321,8 @@ img {
 
 .Part3 {
     /* border: 3px solid maroon; */
-     margin-top: 5%;
-     margin-bottom: -2%;
+     /* margin-top: 5%; */
+     /* margin-bottom: -2%; */
      height: 450px;
  }
  
@@ -351,6 +350,7 @@ img {
      height: 10%;
      width: 100%;
      margin-left: 15px; 
+     
  }
  
  .Economic {
@@ -364,7 +364,7 @@ img {
      /* border: 3px solid firebrick; */
      height: 20%;
      width: 40%;
-     /* margin-left: 10px; */
+     margin-left: 10px;
  }
  
  .Romantic {
@@ -388,7 +388,7 @@ img {
        width: 90%;
      height: 80%;  
      border-left-style:none ;
-     border-radius: 90px;
+     border-radius: 0px 90px 90px 0px;
      margin-right: 50px;
      outline: none;
      margin-left: 20px;
@@ -399,6 +399,7 @@ img {
      align-content: center;
      font-size: 100%;
      /* border: 3px solid indigo ; */
+     border-left: transparent;
 
  }
  
@@ -459,7 +460,7 @@ img {
  .Under_filters p {
      margin-top: 2%;
     margin-left: 2%;
-    font-size: 100%;
+    font-size: 4vw;
  }
 
 /*----------------------------Section--------------------------------*/
