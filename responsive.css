@@ -160,17 +160,19 @@
 header {
     border: 3px solid green;
     width: 100%;
+    
 }
 
 img {
-    width: 100%;
-    border: 3px solid cornflowerblue; 
+    width:40%;
+    /* border: 3px solid cornflowerblue;  */
 } 
 
 .logo {
      width: 100%; 
-    
-    border: 3px solid rebeccapurple; 
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid rebeccapurple;  */
     
 }
 
@@ -178,16 +180,18 @@ img {
 .Part1 {
     /* border: 3px solid khaki; */
     display: flex;
-    justify-content:initial;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    /* margin-bottom: 2.5%; */
+    margin-bottom: 0%;
 }
 
 .Part1 nav {
     border: 3px solid seagreen;
     width: 100%;
-    display: flex;
+    /* display: flex;
+    justify-content: space-between; */
+   
     
     
 
@@ -195,34 +199,35 @@ img {
 }
 
 .Part1 ul {
-    border: 3px solid lightseagreen;
-    width: 100%;
+    /* border: 3px solid lightseagreen; */
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    /* flex-wrap: wrap; */
+    
 }
 
-.Part1 li {
-    font-size: 1vw;
+nav li {
+    font-size: 0.5vw;
+    display: flex;
+    width: 100%;
 }
 
 .order:nth-child(1){
     order: 2;
-    font-size: 25px;
-    width: 50%;
+    font-size: 20px;
+    width: 100%;
     border: 3px solid transparent;
 }
 
 .order:nth-child(2) {   
     order: 3;
-   font-size: 25px;
-  width: 50%;
+   font-size: 20px;
+  width: 100%;
     border: 3px solid transparent;
 }
 
 .order:nth-child(3){
     order: 1;
-    font-size: 25px;
+    font-size: 17.5px;
     border-bottom: none;
     width: 50%;
 }
@@ -230,25 +235,40 @@ img {
 .Part1 nav li a:hover {
     color: #0065FC;
     border-top: none;
-    border-bottom: 8px solid #0065FC;
-    padding-bottom: 50px;
+    border-bottom: 2px solid #0065FC;
+    padding-bottom: 5px;
+    
+}
+
+.register {
+   font-size: 20px;
+   position: absolute;
+   right: 10px;
+   top:30px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
 }
 
 /*----------------------------Recherche------------------------------*/
 
 .Part2 {
     border: 3px solid darkolivegreen;
-    margin-top: 20%;
+    /* margin-top: 20%; */
    margin-left: 0px;
     width: 100%;
 }
 
 .Part2 h1 {
     font-size: 6vw;
+    padding-left: 20px;
 }
 
 .Part2 p {
     /* font-size: 1.6em; */
+    padding-left: 20px;
 }
 
 .search_bar{
@@ -274,6 +294,9 @@ img {
     border-color: #F2F2F2;
     border-style: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .button1 svg {
@@ -282,13 +305,15 @@ img {
 }
 
 .search1 {
-    padding-left: 50px ;
-    font-size: 25px;
+    padding-left: 20px ;
+    font-size: 20px;
      width: 75%;
     height: 50px; 
     border: 3px solid #f2f2f2;
     outline: none;
-    color: rgba(128, 128, 128);
+    color: black;
+    font-weight: bold;
+    font-family: 'Raleway';
 }
 
 .button2 {
@@ -296,10 +321,13 @@ img {
     height: 50px;
     border-radius: 15px 15px 15px 15px;
     margin-left: -40px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .button2 svg {
-    height: 25px;
+    height: 18px;
     color : white;
 }
 
@@ -436,7 +464,7 @@ img {
  }
  
  .Under_filters {
-     /* border: 3px solid fuchsia; */
+     border: 3px solid fuchsia;
      display: flex;
      justify-content: flex-start;
      margin-top: 0px;
@@ -860,7 +888,7 @@ img {
 .footer {
     /* border: 3px solid darkkhaki; */
     height: 1%;
-    width: 104.5%;
+    width: 104vw;
     /* margin-top: 250px; */
     padding-bottom: 30px;
     margin: 75px -10px -15px -10px;
