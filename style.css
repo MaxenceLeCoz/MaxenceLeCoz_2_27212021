@@ -21,6 +21,11 @@ body {
     color: #d9d9d9;
 }
 
+.a_hover {
+color: black;
+text-decoration: none;
+}
+
 /*----------------------Header-----------------------*/
 header {
     /*border: 3px solid orange; */
@@ -28,7 +33,7 @@ header {
 }
 
 .Part1 {
-   /* border: 3px solid khaki;*/
+   /* border: 3px solid khaki; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,9 +42,9 @@ header {
 }
 
 .logo {
-    border: 3px solid red;
-    display: flex;
-    justify-content: space-between;
+    /* border: 3px solid red; */
+    /* display: flex;
+    justify-content: flex-start; */
     /* width: 180vw; */
    
 }
@@ -47,35 +52,38 @@ header {
 img{
     /* border: 3px solid green; */
     width: 30%;
+    ;
 }
 
 /*------------------Navigation--------------------------*/
 
 nav {
-   /* border: 3px solid turquoise;*/
-    width: 40%;
+   /* border: 3px solid turquoise; */
+    width: 50%;
+
 }
 
 nav ul {
-  /*  border: 3px solid blue;*/
+   /* border: 3px solid blue; */
    list-style-type: none;
-   /* display: flex;
-   justify-content: center;
-   width: 100%; */
+   /*  display: flex; */
+   /* justify-content: center; */
+   /* width: 100%;  */
 
    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /* align-items: center;
+    justify-content: space-around; */
 }
 
 nav li{
-    /*border: 3px solid purple;*/
+    border: 3px solid transparent;
     list-style: none; 
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 4.5rem; */
+    height: 4rem;
     width: 100%;
+    /* position: fixed; */
 }
 
 .register {
@@ -85,14 +93,16 @@ nav li{
 }
 
 nav li a {
+    border: 2px solid transparent;
+    padding: 20px;
    text-decoration: none;
    color: black;  
+   /* padding: 0px 25px 0px 25px; */
 }
 
 nav li a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 1vw;
 }
 
 /*--------------------Recherche------------------------*/
@@ -137,11 +147,11 @@ svg{
 }
 
 .search1 {
+
     height: 40px;
-    border: 2px solid ;
+    border: 2px solid #F2F2F2;
     outline: none;
-    color: rgba(128, 128, 128);
-    border: rgba(128, 128, 128);
+    
 }
 
 .button2 {
@@ -171,6 +181,7 @@ svg{
 .Part3 {
    /* border: 3px solid maroon;*/
     margin-top: 1.5%;
+    
 }
 
 .Part3 h2 {
@@ -240,9 +251,9 @@ svg{
     text-decoration: none;
 }
 
-.Button_filters :hover {
+.Button_filters:hover {
     background-color: #0065FC;
-    color: white;
+    text-decoration: white;
 }
 
 .Button_filters_logo {
@@ -299,32 +310,32 @@ svg{
     margin-top: 20px;
 }
 
-.contenu_1 {
-     /* border: 3px solid  chartreuse; */
-    width: 100%;
-    height: 70%;
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content:space-around;
-    margin-top: -1.5%;
-}
-
 /*-----------Gauche------------*/
-
 .left {
-     /* border: 3px solid orange; */
-    width: 62%;
-    height: 630px;
-    border-radius: 30px;
-    background-color: #F2F2F2;
+    /* border: 3px solid orange; */
+   width: 62%;
+   height: 630px;
+   border-radius: 30px;
+   background-color: #F2F2F2;
 }
 
 .left h2 {
-    /* border: 3px solid peru; */
+   /* border: 3px solid peru; */
 margin-left: 4%;
 margin-top: 5%;
 }
+
+.contenu_1 {
+    /* border: 3px solid  chartreuse; */
+   width: 100%;
+   height: 70%;
+  display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content:space-around;
+   
+}
+
 
 .div_left {
     /* border:3px solid tomato; */
@@ -338,15 +349,16 @@ margin-top: 5%;
 
 .description {
     /* border: 3px solid lawngreen; */
-    position: absolute;
+    position:absolute;
+    margin-left: -2%;
     bottom: 0;
     border-radius: 0px 0px 15px 15px;
-    width: 98%;
+    width: 100%;
     height: 50px;
     padding-left: 4%; 
     padding-top: 5%;
     margin-bottom: -2%;
-    margin-left: 0%;
+    
     background-color:white;
     color: black;
 }
@@ -529,8 +541,8 @@ margin-top: 5%;
 .Coeur {
     border: 5px solid white;
    background:url("images/bannière_droite/02.Coeur.jpg") no-repeat ;
-   background-size: 175px;
-   background-position: top;
+   background-size: 185px;
+   background-position: center;
    position: relative;
 }
 
@@ -569,7 +581,7 @@ margin-top: 5%;
 
 .activities_2_3 {
     /*border: 3px solid khaki;*/
-    width: 25%;
+    width: 24%;
     height: 450px;
     margin-right: 35px;
     border-radius: 20px;
@@ -606,7 +618,7 @@ margin-top: 5%;
 
 .activities_5_6 {
     /*border: 3px solid khaki;*/
-    width: 25%;
+    width: 24%;
     height: 450px;
     border-radius: 20px;
 }
@@ -706,8 +718,8 @@ margin-top: 5%;
 
 .footer {
     background-color: #F2F2F2;
-    
-    height: 220px;
+    width: 97.5%;
+    height: 225px;
     margin-top: 30px;
     padding-left: 3%;
 }
