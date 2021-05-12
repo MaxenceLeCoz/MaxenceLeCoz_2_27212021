@@ -1,7 +1,10 @@
 /*----------------------Général--------------------*/
 body {
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif; 
+}
+
+body a {
+    text-decoration: none!important;
 }
 
 .container {
@@ -42,17 +45,12 @@ header {
 }
 
 .logo {
-    /* border: 3px solid red; */
-    /* display: flex;
-    justify-content: flex-start; */
-    /* width: 180vw; */
    
 }
 
 img{
     /* border: 3px solid green; */
     width: 30%;
-    ;
 }
 
 /*------------------Navigation--------------------------*/
@@ -66,15 +64,8 @@ nav {
 }
 
 nav ul {
-   /* border: 3px solid blue; */
    list-style-type: none;
-   /*  display: flex; */
-   /* justify-content: center; */
-   /* width: 100%;  */
-
    display: flex;
-    /* align-items: center;
-    justify-content: space-around; */
 }
 
 nav li{
@@ -85,7 +76,6 @@ nav li{
     align-items: center;
     height: 4rem;
     width: 100%;
-    /* position: fixed; */
 }
 
 .register {
@@ -98,8 +88,7 @@ nav li a {
     border: 2px solid transparent;
     padding: 20px;
    text-decoration: none;
-   color: black;  
-   /* padding: 0px 25px 0px 25px; */
+   color: black;
 }
 
 nav li a:hover {
@@ -149,11 +138,9 @@ svg{
 }
 
 .search1 {
-
     height: 40px;
     border: 2px solid #F2F2F2;
     outline: none;
-    
 }
 
 .button2 {
@@ -181,9 +168,7 @@ svg{
 /*---------------------------Filtres----------------------------*/
 
 .Part3 {
-   /* border: 3px solid maroon;*/
-    margin-top: 1.5%;
-    
+    margin-top: 1.5%; 
 }
 
 .Part3 h2 {
@@ -215,7 +200,6 @@ svg{
 
 .Economic {
     /*border: 3px solid greenyellow;*/
-    
 }
 
 .Family {
@@ -232,25 +216,26 @@ svg{
 
 .Button_filters {
     background-color: white;
-    border-color: #d9d9d9;
-    border-style: solid;
-    height: 40px;
+    border: 2px solid #d9d9d9;
+    font-size: 90%;
     border-left-style:none ;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-right: 50px;
     outline: none;
     margin-left: 20px;
-    display: inline;
     padding-right: 15px;
     padding-left: 30px;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding-bottom: 9px;
+    margin-top: -0px;
+    padding-top: 10px;
 }
 
-.Button_filters a {
+a .Button_filters {
     color: black;
-    text-decoration: none;
 }
 
 .Button_filters:hover {
@@ -533,7 +518,7 @@ margin-top: 5%;
 .star2 {
     /* border: 3px solid brown;*/
     margin-left: 5%;
-    padding-top: 37.5px;
+    padding-top: 15%;
 }
 
 .Soleil {
@@ -605,7 +590,7 @@ margin-top: 5%;
 .activity_3 {
     /*border: 3px solid gold;*/
     width: 100%;
-    height: 38%;
+    height: 37%;
     margin-top: 14%;
     border-radius: 20px;
     box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
@@ -641,7 +626,7 @@ margin-top: 5%;
 .activity_6 {
     /*border: 3px solid gold;*/
     width: 100%;
-    height: 45%;
+    height: 44%;
     margin-top: 14%;
     border-radius: 20px;
     box-shadow: 2px 0px .4em rgba(128, 128, 128, 0.5) , 
