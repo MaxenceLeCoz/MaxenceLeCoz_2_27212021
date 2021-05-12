@@ -1,4 +1,4 @@
-@media screen and (max-width:1024px) /*1024x768*/
+@media screen and (max-width:1024px)
 {
 
     /*---------------------Général-----------------------------------*/
@@ -36,7 +36,7 @@
     }
 
     .Button_filters {
-        font-size: 62.5%;
+        font-size: 65%;
     }
 
     .ss_fi p {
